@@ -74,7 +74,7 @@ def reblockAndSort(wordTups, removeHeader=True, removeFooter=True, anticipateTab
 
     flattenedBlocks = [item for items in blocks for item in items if item[5] not in Dropsies]
     return flattenedBlocks
-
+# who put this shit here?
 def ProperSortString(smushedBlox, lineSpaceVal=5):
     final_sort = []
     subfinal_sort = []
